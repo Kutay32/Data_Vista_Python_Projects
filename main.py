@@ -26,9 +26,9 @@ def play_game():
         print("Hatalı seçim")
     doğru_tahmin=random.randint(1,max_sayı)
     for hak in range(5)
-        guess=int(input(f"{hak+1} Tahmininizi gir (1-{max_number}:))
+        guess=int(input(f"{hak+1} Tahmininizi gir (1-{max_number}:"))
         if tahmin == doğru_tahmin:
-            print(f"Tebrikler,doğru tahmin.{puan} puan kazandınız)
+            print(f"Tebrikler,doğru tahmin.{puan} puan kazandınız")
             score += puan
             Lider_tablosud[Takma_ad] = score
             break 
@@ -37,7 +37,7 @@ def play_game():
         else:
             print("Daha düşük bir sayı söyleyin")
         if tahmin != doğru_tahmin:
-            print(f"yanlış bildiniz,doğru sayı {correct_guess})
+            print(f"yanlış bildiniz,doğru sayı {correct_guess}")
             
             
         
