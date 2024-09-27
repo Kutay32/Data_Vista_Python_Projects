@@ -17,7 +17,7 @@ def solver(matrix, satir=0, sutun=0):
     if sutun == 9:
         satir += 1
         sutun = 0
-        if satir == 9:  # Eğer satırlar biterse, Sudoku çözülmüştür
+        if satir == 9: 
             return True
 
     return True
