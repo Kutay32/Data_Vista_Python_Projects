@@ -1,0 +1,6 @@
+First Name,Last Name,Employee ID,Department,Salary,Vacation Days,Employee Type
+John,Doe,101,Engineering,5000.0,20,FullTimeEmployee
+Alice,Smith,104,Engineering,10000.0,14,Manager
+Ahmet,Roketatar,201,Marketing,0,10,PartTimeEmployee
+Feridun,Çulsuz,202,Marketing,3000.0,0,Consultant
+Bilal,Aksel,001,Engineering,5000.0,20,FullTimeEmployee
