@@ -19,6 +19,13 @@ def handle_mouse_click(event, x, y, flags, param):
                       (x + PARKING_SPOT_SIZE[0], y + PARKING_SPOT_SIZE[1]),
                       (0, 255, 0), 2)  # Yeşil çerçeve
         cv2.imshow("Park Alanı Seçimi", frame)
+
+        if events == cv2.EVENT_RBUTTONDOWN:
+        for i, pos in enumerate(pos_list):
+            x1, y1 = pos
+            if x1<x<x1+width and y1<y<y1+height:
+                pos_list.pop(i)
+                
 def initialize_parking_spot_selection(video_path):
     global frame
     video = cv2.VideoCapture(video_path)
